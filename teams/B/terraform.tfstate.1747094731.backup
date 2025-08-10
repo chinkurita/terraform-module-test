@@ -1,0 +1,39 @@
+{
+  "version": 4,
+  "terraform_version": "1.10.5",
+  "serial": 4,
+  "lineage": "3634af46-f6da-555b-ed34-4f3c6086dc54",
+  "outputs": {},
+  "resources": [
+    {
+      "module": "module.sg",
+      "mode": "managed",
+      "type": "aws_security_group",
+      "name": "sg2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:ap-south-1:851725210193:security-group/sg-00e258904c00670be",
+            "description": "Managed by Terraform",
+            "egress": [],
+            "id": "sg-00e258904c00670be",
+            "ingress": [],
+            "name": "prod-sg-2",
+            "name_prefix": "",
+            "owner_id": "851725210193",
+            "revoke_rules_on_delete": false,
+            "tags": null,
+            "tags_all": {},
+            "timeouts": null,
+            "vpc_id": "vpc-078460c8ae7db4851"
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6OTAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIxIn0="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
